@@ -69,6 +69,8 @@ $cor7: #64544c;
         font-weight: 800;
         text-align: center;
 
+
+
         &--subtitle {
             margin-top: 5px;
             margin-bottom: 64px;
@@ -97,6 +99,11 @@ $cor7: #64544c;
             font-size: 22px;
             line-height: 22px;
             margin: 20px 0;
+
+            &--subtitle {
+                font-size: 12px;
+            }
+
         }
     }
 }
@@ -108,7 +115,7 @@ $cor7: #64544c;
 
 .event {
     padding: 80px 0;
-    
+
     &--resume {
         background-image: linear-gradient($cor1, $cor2);
     }
